@@ -1,0 +1,123 @@
+body{
+    background-color: rgba(34,40,49,255);
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    overflow-x: hidden;
+}
+.listing-header{
+    margin-left: 10%;
+}
+.popular-header{
+    margin-left: 10%;
+    display:inline-block;
+}
+.listing-box{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #393e46;
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.btn-primary{
+    background-color: #0eadb7;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 22px;
+    border:none;
+}
+
+.btn-primary:hover{
+    background-color: #1a929d;
+}
+
+.btn-success{
+    background-color: #1a929d;
+}
+
+.btn-primary:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.popular-listings-header{
+    display:inline;
+    flex-wrap: wrap;
+}
+
+.btn-warning{
+    margin-right: 10%;
+    float:right;
+    color: white;
+    background-color: #0eadb7;
+    border-radius: 10px;
+    padding: 15px;
+    border:none;
+}
+
+.btn-warning:focus, .btn-warning:active{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-warning:hover, .btn-warning:active{
+    color:white;
+    background-color: #1a929d;
+}
+
+.popular-listings{
+    margin: 0% 12% 0% 12%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.values-box{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #393e46;
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.search{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.all-box{
+    margin-right: 50px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.listing-container{
+    background-color: #393e46;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:20px;
+    margin:40px;
+}
+
+.all-header{
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.contact-box{
+    padding: 50px;
+    background-color: #393e46;
+    border-radius: 20px;
+    margin: 0% 25% 0% 25%;
+    display: flex;
+    justify-content: space-around;
+}

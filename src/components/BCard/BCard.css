@@ -1,0 +1,25 @@
+.custom{
+    color:black;
+}
+
+.btn-outline-primary{
+    border: 2px solid #0eadb7;
+    color: #0eadb7;
+}
+
+.btn-danger{
+    background-color:#0eadb7;
+    color:white;
+    border: none;
+    margin-right: 10px;
+    padding:8px;
+}
+
+.btn-danger:hover{
+    background-color: #345c6c;
+}
+
+.card{
+    margin: 10px;
+    border-radius: 15px;
+}
